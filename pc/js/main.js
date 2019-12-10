@@ -3,11 +3,11 @@ $(function(){
 	var t=0;
 	var firstFlag=false;
 
-	// var timer=setTimeout(function(){
-	// 	$("html").animate({scrollTop:0}, 400, function(){
-	// 		firstFlag=true;
-	// 	});
-	// }, 100);
+	var timer=setTimeout(function(){
+		$("html").animate({scrollTop:0}, 400, function(){
+			firstFlag=true;
+		});
+	}, 100);
 
 	$(window).scroll(function(){
 		t=$(window).scrollTop();
